@@ -1,6 +1,6 @@
 {
   "name": "dirject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inject dependencies and run js files in a directory",
   "main": "src/dirject.js",
   "scripts": {
