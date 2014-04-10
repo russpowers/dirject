@@ -48,7 +48,7 @@ function resolve(file) {
 
 function dirject(container, receiver, directory) {
 	var promises = [];
-  loaddir(settings.directory).forEach(function (file) {
+  loaddir(directory).forEach(function (file) {
       var service = require(file);
       if (typeof service === 'function') {
           promises.push(container.inject(service, receiver));
