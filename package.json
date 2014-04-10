@@ -1,0 +1,22 @@
+{
+  "name": "dirject",
+  "version": "0.1.0",
+  "description": "Inject dependencies and run js files in a directory",
+  "main": "src/dirject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/russpowers/dirject.git"
+  },
+  "author": "Russ Powers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russpowers/dirject/issues"
+  },
+  "homepage": "https://github.com/russpowers/dirject",
+  "dependencies": {
+    "bluebird": "~1.2.2"
+  }
+}
